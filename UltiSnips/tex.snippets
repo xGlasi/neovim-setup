@@ -1,0 +1,177 @@
+# Snippet für typewriting font
+snippet tt "The \texttt{} command for typewriter-style font"
+\texttt{$1}
+endsnippet
+
+# Snippet für fractions
+snippet ff "Latex \frac{}{} command"
+\frac{$1}{$2}$0
+endsnippet
+
+# Snippet für documentclass article 
+snippet article "Snippet für \documentclass{article}"
+\documentclass{article}
+\title{$1}
+\author{$2}
+$0
+endsnippet
+
+# Snippet fürs Dokument
+snippet doc "Snippet für \begin{doc} ... \end{doc}"
+\begin{document}
+\maketitle
+$0
+\end{document}
+endsnippet
+
+# Snippet für Base
+snippet base "Snippet für Anfang"
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=25mm, bottom=25mm, left=30mm, right=30mm]{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\title{$1}
+\author{$2}
+
+\begin{document}
+\maketitle
+$0
+\end{document}
+endsnippet
+
+
+# Snippet für Section
+snippet section "Snippet für \section{}"
+\section*{$1}$0
+endsnippet
+
+# Snippet für environment
+snippet env "Snippet für \begin{} \end{}"
+\begin{$1}
+$0
+\end{$1}
+endsnippet
+
+# Snippet für fetten Text
+snippet bttt "Snippet für \textbf{}"
+\textbf{$1} $0
+endsnippet
+
+# Snippet für kursiven Text
+snippet ittt "Snippet für \textit{}"
+\textit{$1} $0
+endsnippet
+
+# Snippet für Text
+snippet ttt "Snippet für \texttt{}"
+\texttt{$1}$0
+endsnippet
+
+# Snippet für inline Formel
+snippet if "Snippet für \( ... \)"
+\( $1 \)$0
+endsnippet
+
+# Snippet für Formel in extra Zeile bzw. abgesetzte mathematische Formel
+snippet ef "Snippet für \[ ... \]"
+\[ 
+$1
+\]$0
+endsnippet
+
+# Snippet für Pfeil nach rechts
+snippet rarr "Snippet für ->"
+\rightarrow $0
+endsnippet
+
+# Snippet für Pfeil nach links
+snippet larr "Snippet für <-"
+\leftarrow $0
+endsnippet
+
+# Snippet für reelle Zahlen-Zeichen
+snippet rZ "Snippet für reelle Zahlen"
+\mathbb{R} $0
+endsnippet
+
+# Snippet für natürliche Zahlen
+snippet nZ "Snippet für natürliche Zahlen"
+\mathbb{N} $0
+endsnippet
+
+# Snippet für Element
+snippet in "Snippet für Element-Zeichen"
+\in $0
+endsnippet
+
+# Snippet für kein Element
+snippet notin "Snippet für kein Element von-Zeichen"
+\notin $0
+endsnippet
+
+# Snippet für Gleichheitszeichen
+snippet eq "Snippet für Gleichheitszeichen"
+\eq $0
+endsnippet
+
+# Snippet für Ungleichheit
+snippet neq "Snippet für Ungleichheitszeichen"
+\neq $0
+endsnippet
+
+# Snippet für größer-Zeichen
+snippet gt "Greater than" b
+> $1
+endsnippet
+
+snippet ge "Greater than or equal to" b
+\geq $1
+endsnippet
+
+snippet lt "Less than" b
+< $1
+endsnippet
+
+snippet le "Less than or equal to" b
+\leq $1
+endsnippet
+
+snippet nn "New Line" b
+\bigskip
+$0
+endsnippet
+
+snippet v "Neighbourhood" b
+\vee $0
+endsnippet
+
+snippet without "Without"
+\setminus $0
+endsnippet
+
+snippet liminf "Limes"
+\lim_{$1\to\inft} $0
+endsnippet
+
+snippet lim "Limes"
+\lim_{$1\to $2} $0
+endsnippet
+
+snippet union "Vereinigungsmenge"
+\cup $0
+endsnippet
+
+snippet intersection "Schnittmenge"
+\cap $0
+endsnippet
+
+snippet difference "Differenz/Ohne"
+\setminus $0
+endsnippet
+
+snippet frac "Bruch"
+\frac{$1}{$2}$0
+endsnippet
